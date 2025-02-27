@@ -1,0 +1,204 @@
+.nav li a,
+.login {
+    border-radius: 20px;
+}
+
+.login:hover {
+    background: #1CBBB4;
+    transition: 0.5s;
+}
+
+.nav li a:hover {
+    background: #1CBBB4;
+    transition: 0.5s;
+}
+
+.detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.detail h1 {
+    width: 70%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.detail p {
+    color: white;
+    width: 90%;
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.button button {
+    color: white;
+    background: #1CBBB4;
+    width: 200px;
+    height: 50px;
+    border: 2px #1CBBB4 solid;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.button button:hover {
+    background: #03312e;
+}
+
+.experienc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experinc-button button {
+    width: 200px;
+    height: 50px;
+    border: 1px solid;
+}
+
+.experinc-button button,
+.button-about:hover {
+    background: none;
+    color: black;
+}
+
+.category-head {
+    margin-top: 50px;
+    padding-bottom: 20px;
+    justify-self: center;
+}
+
+.category-body {
+    display: flex;
+    justify-content: center;
+}
+
+.category-body h4,
+img {
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.img-content {
+    background-color: #1A2E35;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+
+.img-content img {
+    width: 93%;
+    height: 70px;
+    padding-left: 30px;
+    border-radius: 40%;
+}
+
+.img-content:hover {
+    background: #1CBBB4;
+}
+
+.right_content {
+    width: 100%;
+    display: flex;
+}
+
+.right_content img {
+    width: 600px;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+.footer {
+    background: #1A2E35;
+    color: white;
+}
+
+.category-body h4,
+img {
+    margin-left: 25px;
+}
+
+.section_login {
+    background: #276176c5;
+    display: flex;
+}
+
+.login_form {
+    background: #285463;
+    width: 600px;
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.login_form form div p a {
+    text-decoration: none;
+    font-size: 15px;
+    color: blue;
+}
+
+.login_form form div p a:hover {
+    text-decoration: underline;
+}
+
+.login_form form h1 {
+    color: white;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    font-size: 70px;
+}
+
+
+/*------------------*/
+
+.section_signUp {
+    background: #1f5466dc;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.signUp_form {
+    background: #285463;
+    width: 600px;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.signUp_form form div p a {
+    text-decoration: none;
+    font-size: 15px;
+    color: blue;
+}
+
+.signUp_form form div p a:hover {
+    text-decoration: underline;
+}
+
+.signUp_form form h1 {
+    color: white;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    font-size: 70px;
+}
